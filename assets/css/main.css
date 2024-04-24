@@ -171,23 +171,23 @@ footer{
 
 /*size*/
 /* For small screens and phones */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
  
   h1{
-    font-size: 15px;
+    font-size: 10px;
   }
 
   .links{
     font-family: 'Times New Roman', Times, serif;
     color: rgb(124, 176, 225);
     display: flex;
-    font-size: 10px;
+    font-size: 9px;
   }
   
   .menu li {
     list-style-type: none;
     display: inline;
-    padding: 10px;
+    padding: 5px;
   }
 
   .menu{
@@ -196,7 +196,145 @@ footer{
 
   #Contact{
     color: rgb(44, 94, 168);
-    font-size: 20px;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    text-align: center;
+  }
+
+  .demo {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .img22 {
+    width: 40%; /* Adjust image width */
+    margin: 10px 0; /* Adjust margin */
+  }
+
+  
+  .menu li a{
+    
+    text-decoration: none;
+    color: white;
+  }
+  
+  .menu li a:hover {
+    color: rgb(38, 69, 94);
+  }
+  
+  /*main*/
+  
+  main h1{
+    background-color:rgb(44, 94, 168);
+    color: aliceblue;
+    padding: 30px;
+    text-align: left;
+    width: 43%;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 10px;
+  }
+  
+  .sub-head{
+    margin: 30px;
+    padding: 20px;
+    background-color: rgb(44, 94, 168);
+    color: white;
+    border-radius: 50px;
+    width: 38%;
+    text-align: center;
+    font-size: 8px;
+  }
+  
+  
+  #info{
+    display:block;
+    
+  }
+  
+  
+  #col{
+    width: 50%;
+    color: rgb(44, 94, 168);
+    padding: 20px;
+    font-size: 10px;
+  }
+  
+  #col ul{
+    list-style-type:circle;
+  
+  }
+  
+  #col li{
+    padding: 5px;
+    font-size: larger;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  
+  .pic1{
+    width: 220px;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 5px auto;
+  }
+  
+  .container{
+    display:contents;
+    margin: 20px;
+    background-color: rgb(193, 218, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 10px;
+  }
+  
+  #About{
+    padding: 20px;
+    font-size: mall;
+  }
+  
+  .pic2{
+    width: 220px;
+    height: auto;
+    border-radius: 20px;
+    margin: 30px auto;
+  }
+  
+  
+  
+
+  
+}
+
+/* For medium-sized screens */
+@media screen and (min-width: 501px) and (max-width: 750px) {
+  
+  h1{
+    font-size: 16px;
+  }
+
+  .links{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(124, 176, 225);
+    display: flex;
+    font-size: 14px;
+  }
+  
+  .menu li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px;
+  }
+
+  .menu{
+    margin-left: auto;
+  }
+
+  #Contact{
+    color: rgb(44, 94, 168);
+    font-size: 15px;
     font-family:Arial, Helvetica, sans-serif;
     margin: 0;
     text-align: center;
@@ -233,7 +371,7 @@ footer{
     width: 43%;
     border-top-right-radius: 50px;
     border-bottom-right-radius: 50px;
-    font-size: 17px;
+    font-size: 13px;
   }
   
   .sub-head{
@@ -274,7 +412,7 @@ footer{
   
   
   .pic1{
-    width: 250px;
+    width: 350px;
     height: auto;
     border-radius: 20px;
     display: block;
@@ -287,23 +425,18 @@ footer{
     background-color: rgb(193, 218, 255);
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 15px;
+    font-size: 10px;
   }
   
   #About{
     padding: 20px;
-    font-size: mall;
+    font-size: small;
   }
   
   .pic2{
-    width: 250px;
+    width: 350px;
     height: auto;
     border-radius: 20px;
     margin: 30px auto;
   }
-  
-  
-  
-
-  
 }
