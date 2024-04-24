@@ -274,8 +274,8 @@ footer{
   
   
   .pic1{
-    width: 300px;
-    height:fit-content;
+    width: 250px;
+    height: auto;
     border-radius: 20px;
     display: block;
     margin: 5px auto;
@@ -296,8 +296,8 @@ footer{
   }
   
   .pic2{
-    width: 300px;
-    height:fit-content;
+    width: 250px;
+    height: auto;
     border-radius: 20px;
     margin: 30px auto;
   }
